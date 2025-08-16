@@ -28,7 +28,7 @@ Feature fusion is accomplished using a **Bilinear Attention Network (BAN)**, ena
 AFPDeepPred/
 ├── data/
 │   ├── train.csv         # Training dataset (download from Zenodo)
-│   └── val.csv           # Validation dataset (split from train.csv)
+│   └── val.csv           # Reviewed independent dataset (split from train.csv)
 ├── models/
 │   └── best_model.pth    # Pretrained model weights (download from Zenodo)
 ├── config.py             # Configuration file (paths, hyperparameters)
