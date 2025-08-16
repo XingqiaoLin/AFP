@@ -20,6 +20,7 @@ Feature fusion is accomplished using a **Bilinear Attention Network (BAN)**, ena
 * **Handles Class Imbalance**: Employs **Focal Loss** to address the inherent imbalance in AFP datasets, improving sensitivity on minority classes.
 * **Modular & Reproducible**: Codebase is organized into clear, reusable scripts for easy configuration, training, and evaluation.
 
+---
 
 ## 📂 Project Structure
 
