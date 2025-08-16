@@ -20,17 +20,16 @@ Feature fusion is accomplished using a **Bilinear Attention Network (BAN)**, ena
 * **Handles Class Imbalance**: Employs **Focal Loss** to address the inherent imbalance in AFP datasets, improving sensitivity on minority classes.
 * **Modular & Reproducible**: Codebase is organized into clear, reusable scripts for easy configuration, training, and evaluation.
 
----
 
 ## 📂 Project Structure
 
 ```
 AFPDeepPred/
 ├── data/
-│   ├── train.csv         # Training dataset
-│   └── val.csv           # Validation dataset
+│   ├── train.csv         # Training dataset (download from Zenodo)
+│   └── val.csv           # Validation dataset (split from train.csv)
 ├── models/
-│   └── best_model.pth    # Saved model weights
+│   └── best_model.pth    # Pretrained model weights (download from Zenodo)
 ├── config.py             # Configuration file (paths, hyperparameters)
 ├── data_loader.py        # Data loading and preprocessing logic
 ├── model.py              # Model architecture (AFPDeepPred, BANLayer, FocalLoss)
@@ -38,6 +37,21 @@ AFPDeepPred/
 ├── evaluate.py           # Script to evaluate the trained model
 └── requirements.txt      # List of required Python packages
 ```
+
+---
+
+## 📥 Data and Pretrained Model
+
+You can download the training dataset (`train.csv`) and pretrained model (`best_model.pth`) directly from **Zenodo**:
+
+🔗 [Download from Zenodo](https://zenodo.org/uploads/16886732)
+
+After downloading:
+
+* Place `train.csv` into the `data/` directory
+* Place `best_model.pth` into the `models/` directory
+
+
 
 ---
 
