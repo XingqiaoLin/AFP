@@ -45,7 +45,7 @@ AFPDeepPred/
 
 You can download the training dataset (`train.csv`) and pretrained model (`best_model.pth`) directly from **Zenodo**:
 
-🔗 [Download from Zenodo](https://zenodo.org/records/16886732?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjUwODE3NzQ3LWFkNzMtNDg1NC1iYzg4LTU2ZDVlODg4NzNlMSIsImRhdGEiOnt9LCJyYW5kb20iOiJiMGI5ZmIwYTU5MjU1YzgzODRlMGNlMTM5ZmU5ZWNjNSJ9.-Jmy9d7c8icrBm8k4UiJhxF21j45VfwDghUCO-ou8W3bHsdBfWcpNUSk4rtDTQ1Gxvqu4Pw2v1jxYS9gZZgkgg)
+🔗 [Download from Zenodo](https://zenodo.org/uploads/16886732)
 
 After downloading:
 
