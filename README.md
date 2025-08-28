@@ -36,7 +36,7 @@ AFPDeepPred/
 ├── model.py              # Model architecture (AFPDeepPred, BANLayer, FocalLoss)
 ├── train.py              # Script to train the model
 ├── evaluate.py           # Script to evaluate the trained model
-└── environment.yml      # List of required Python packages
+└── environment.yml       # List of required Python packages
 ```
 
 ---
